@@ -21,7 +21,6 @@ public class Main {
 
         // Caso 4: 3 rainhas - a1, c5, e2
         // queens[0]=0, queens[2]=4, queens[4]=1
-        // a1->c5: Δrow=4, Δcol=2 ✓  a1->e2: Δrow=1, Δcol=4 ✓  c5->e2: Δrow=3, Δcol=2 ✓
         int[] board4 = {0, -1, 4, -1, 1, -1, -1, -1};
         solve("3 Rainhas: a1, c5, e2", board4);
     }
